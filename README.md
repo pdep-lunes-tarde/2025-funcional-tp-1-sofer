@@ -2,14 +2,14 @@
 
 ## Grupo, nombre y legajo de integrantes
 
-- Nombre del grupo: **Completar**
+- Nombre del grupo: Sofer
 
 Integrantes:
-- Legajo: **Completar** 
-- Nombre: **Completar**
+- Legajo: 213302-7 
+- Nombre: sofia verona rapetti
 
-- Legajo: **Completar** 
-- Nombre: **Completar**
+- Legajo: 141925-0
+- Nombre: Fernando Nahuel Acevedo
 
 
 ## Objetivos
