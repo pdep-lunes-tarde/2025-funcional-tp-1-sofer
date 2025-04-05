@@ -1,5 +1,6 @@
 module Library where
 import PdePreludat
+import GHC.Base (Float)
 
 -- 1. Numeros
 
@@ -10,12 +11,13 @@ esPositivo :: Number -> Bool
 esPositivo numeroPositivo = numeroPositivo > 0 
 
 -- escriban el tipo de esta función
-inversa n = implementame
+inversa :: Number -> Number
+inversa numeroInverso = 1/numeroInverso
 
 -- 2. Temperaturas
 
 celsiusAFahrenheit :: Number -> Number
-celsiusAFahrenheit celsius = implementame
+celsiusAFahrenheit celsius = (celsius * 9/5 ) + 32
 
 fahrenheitACelsius :: Number -> Number
 fahrenheitACelsius fahrenheit = implementame
