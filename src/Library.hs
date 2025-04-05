@@ -4,10 +4,10 @@ import PdePreludat
 -- 1. Numeros
 
 siguiente :: Number -> Number
-siguiente = implementame
+siguiente numSig = numSig + 1
 
 esPositivo :: Number -> Bool
-esPositivo = implementame
+esPositivo numeroPositivo = numeroPositivo > 0 
 
 -- escriban el tipo de esta función
 inversa n = implementame
