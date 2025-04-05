@@ -5,8 +5,8 @@
 - Nombre del grupo: Sofer
 
 Integrantes:
-- Legajo: **Completar** 
-- Nombre: **Completar**
+- Legajo: 213302-7 
+- Nombre: sofia verona rapetti
 
 - Legajo: 141925-0
 - Nombre: Fernando Nahuel Acevedo
