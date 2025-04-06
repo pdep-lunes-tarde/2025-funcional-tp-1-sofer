@@ -17,18 +17,18 @@ inversa numeroInverso = 1/numeroInverso
 -- 2. Temperaturas
 
 celsiusAFahrenheit :: Number -> Number
-celsiusAFahrenheit celsius = (celsius * 9/5 ) + 32
+celsiusAFahrenheit celsius = ( celsius * 1.8 ) + 32
 
 fahrenheitACelsius :: Number -> Number
 fahrenheitACelsius fahrenheit = (fahrenheit - 32) / 1.8
 
 -- escriban el tipo de esta función
 haceFrioCelsius :: Number -> Bool
-haceFrioCelsius numerohaceFrioCelsius = numerohaceFrioCelsius < 15
+haceFrioCelsius numerohaceFrioCelsius = numerohaceFrioCelsius <= 8
 
 -- escriban el tipo de esta función
 haceFrioFahrenheit :: Number -> Bool
-haceFrioFahrenheit gradoshaceFrioFahrenheit = gradoshaceFrioFahrenheit < 15
+haceFrioFahrenheit gradoshaceFrioFahrenheit = gradoshaceFrioFahrenheit <= 8
 
 -- 2.5 Bonus OPCIONAL
 perimetroCirculo :: Number -> Number
