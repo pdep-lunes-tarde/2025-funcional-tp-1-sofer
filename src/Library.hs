@@ -24,24 +24,24 @@ fahrenheitACelsius fahrenheit = (fahrenheit - 32) / 1.8
 
 -- escriban el tipo de esta función
 haceFrioCelsius :: Number -> Bool
-haceFrioCelsius numerohaceFrioCelsius = numerohaceFrioCelsius <= 8
+haceFrioCelsius celsius = celsius <= 8
 
 -- escriban el tipo de esta función
 haceFrioFahrenheit :: Number -> Bool
-haceFrioFahrenheit gradoshaceFrioFahrenheit = gradoshaceFrioFahrenheit <= 8
+haceFrioFahrenheit fahrenheit = fahrenheit <= 8
 
 -- 2.5 Bonus OPCIONAL
 perimetroCirculo :: Number -> Number
-perimetroCirculo numeroRadio = 2 * pi * numeroRadio
+perimetroCirculo radio = 2 * pi * radio
 
 perimetroCuadrado :: Number -> Number
-perimetroCuadrado numeroLado = 4 * numeroLado
+perimetroCuadrado lado = 4 * lado
 
 superficieCuadrado :: Number -> Number
-superficieCuadrado numeroLado = numeroLado * numeroLado
+superficieCuadrado lado = lado * lado
 
 superficieCubo :: Number -> Number
-superficieCubo numeroLado = 6 * (numeroLado * numeroLado)
+superficieCubo lado = 6 * (lado * lado)
 
 superficieCilindro :: Number -> Number -> Number
-superficieCilindro numeroRadio numeroAltura = 2 * pi * (numeroRadio * numeroRadio) + 2 * pi * numeroRadio * numeroAltura
+superficieCilindro radio altura = 2 * pi * (radio * radio) + 2 * pi * radio * altura
