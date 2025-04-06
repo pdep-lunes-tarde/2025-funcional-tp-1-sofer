@@ -1,6 +1,6 @@
 module Library where
 import PdePreludat
-import GHC.Base (Float)
+import GHC.Base (Float, Double)
 
 -- 1. Numeros
 
@@ -20,26 +20,28 @@ celsiusAFahrenheit :: Number -> Number
 celsiusAFahrenheit celsius = (celsius * 9/5 ) + 32
 
 fahrenheitACelsius :: Number -> Number
-fahrenheitACelsius fahrenheit = implementame
+fahrenheitACelsius fahrenheit = (fahrenheit - 32) / 1.8
 
 -- escriban el tipo de esta función
-haceFrioCelsius grados = implementame
+haceFrioCelsius :: Number -> Bool
+haceFrioCelsius numerohaceFrioCelsius = numerohaceFrioCelsius < 15
 
 -- escriban el tipo de esta función
-haceFrioFahrenheit grados = implementame
+haceFrioFahrenheit :: Number -> Bool
+haceFrioFahrenheit gradoshaceFrioFahrenheit = gradoshaceFrioFahrenheit < 15
 
 -- 2.5 Bonus OPCIONAL
 perimetroCirculo :: Number -> Number
-perimetroCirculo radio = implementame
+perimetroCirculo numeroRadio = 2 * pi * numeroRadio
 
 perimetroCuadrado :: Number -> Number
-perimetroCuadrado lado = implementame
+perimetroCuadrado numeroLado = 4 * numeroLado
 
 superficieCuadrado :: Number -> Number
-superficieCuadrado lado = implementame
+superficieCuadrado numeroLado = numeroLado * numeroLado
 
 superficieCubo :: Number -> Number
-superficieCubo lado = implementame
+superficieCubo numeroLado = 6 * (numeroLado * numeroLado)
 
 superficieCilindro :: Number -> Number -> Number
-superficieCilindro radio altura = implementame
+superficieCilindro numeroRadio numeroAltura = 2 * pi * (numeroRadio * numeroRadio) + 2 * pi * numeroRadio * numeroAltura
